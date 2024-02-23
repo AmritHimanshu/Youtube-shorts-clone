@@ -1,0 +1,36 @@
+.sidebarOption {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  height: 40px;
+  border-radius: 10px;
+}
+
+.sidebarOption:hover {
+  cursor: pointer;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.sidebarOption.selected {
+  font-weight: bold;
+  background-color: rgb(240, 240, 240);
+  color: black;
+}
+
+.sidebarOption.selected>.MuiSvgIcon-root {
+  color: black;
+}
+
+.sidebarOption>.MuiSvgIcon-root {
+  color: white;
+  stroke: rgb(0, 0, 0);
+  stroke-width: 0.9;
+}
+
+.sidebarOption__title {
+  font-size: 15px;
+  font-weight: 551;
+  margin-left: 25px;
+}
